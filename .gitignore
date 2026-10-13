@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Files written by `vaultos link` in your own projects are meant to be committed there, not here.
+/.vaultos/
+/tracker/
