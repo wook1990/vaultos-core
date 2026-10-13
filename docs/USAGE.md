@@ -15,7 +15,7 @@ VaultOS keeps intent and execution apart. Intent (why we build it) lives in the 
 ## 1. 설치 / Install
 
 ```sh
-git clone https://github.com/<owner>/vaultos.git ~/tools/vaultos
+git clone https://github.com/wook1990/vaultos-core.git ~/tools/vaultos
 cd ~/tools/vaultos
 python3 install.py
 ```
@@ -134,7 +134,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
-        with: { repository: <owner>/vaultos, path: .vaultos-cli }
+        with: { repository: wook1990/vaultos-core, path: .vaultos-cli }
       - run: python3 .vaultos-cli/vaultos validate --ci
 ```
 

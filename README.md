@@ -34,8 +34,8 @@ your repository       = what  code, tests, tracker/*.yaml, evidence
 ## 시작하기 / Quick start
 
 ```sh
-git clone https://github.com/<owner>/vaultos.git
-cd vaultos
+git clone https://github.com/wook1990/vaultos-core.git
+cd vaultos-core
 python3 install.py                       # CLI link + agent rules / CLI 링크와 에이전트 규칙
 vaultos init ~/Obsidian/MyVault          # creates ~/Obsidian/MyVault/VaultOS / 볼트 안에 폴더 생성
 vaultos new my-app                       # vault project + ~/workspace/my-app repository
